@@ -1,0 +1,22 @@
+{
+  "name": "freeswitch-api",
+  "version": "1.0.0",
+  "description": "fsapi endpoint for Halcyon-based OpenSimulator Grids",
+  "main": "index.ts",
+  "scripts": {
+    "build": "mkdir -p build && node_modules/.bin/webpack"
+  },
+  "author": "Michael Heilmann",
+  "license": "MIT",
+  "devDependencies": {
+    "source-map-loader": "^0.2.0",
+    "ts-loader": "^2.0.1",
+    "typescript": "^2.2.1",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "immutable": "^3.8.1"
+  }
+}
