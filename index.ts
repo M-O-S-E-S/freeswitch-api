@@ -1,6 +1,4 @@
 
-/// <reference path="./typings/index.d.ts" />
-
 import { FreeswitchClientHandler, FreeswitchNodeHandler } from './lib/FreeswitchHandler';
 import { Freeswitch } from './lib/Freeswitch';
 
